@@ -1,0 +1,26 @@
+.left{
+    display: flex;
+    justify-content: space-around;
+    /* background-color: aqua; */
+    width: 50px;
+    flex: 1;
+}
+.center{
+    display: flex;
+    flex: 2;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.right{
+    display: flex;
+    flex: 1;
+}
+.left .logo i{
+    color: red;
+    margin-left: 2rem;
+}
+.center .submit{
+    height: 23px;
+}
